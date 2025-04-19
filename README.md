@@ -6,4 +6,4 @@ Junlin He, Jinxiao Du, Wei Ma: “Preventing Dimensional Collapse in Self-Superv
 
 ## Modification
 
-![image](https://github.com/user-attachments/assets/67261c34-50e0-45d1-a273-e63cba381bf5)
+![image](https://github.com/user-attachments/assets/98768364-2597-4657-9035-b82fe691da02)
