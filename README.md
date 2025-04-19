@@ -2,7 +2,7 @@
 Orthogonality Regularization Loss
 
 This is a modification the algorithms presented in  
-Junlin He, Jinxiao Du, Wei Ma: “Preventing Dimensional Collapse in Self-Supervised Learning via Orthogonality Regularization”, 2024; http://arxiv.org/abs/2411.00392'>arXiv:2411.00392
+Junlin He, Jinxiao Du, Wei Ma: “Preventing Dimensional Collapse in Self-Supervised Learning via Orthogonality Regularization”, 2024; [http://arxiv.org/abs/2411.00392'>arXiv:2411.00392](https://arxiv.org/abs/2411.00392)
 
 ## Modification
 
