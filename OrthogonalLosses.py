@@ -40,7 +40,7 @@ class SoftOrthogonalityLoss(nn.modules.loss._Loss):
         torch.Tensor
             The computed loss.
         """
-        loss = 0
+        loss = torch.tensor(0.0, device=next(model.parameters()).device)
         for name, module in model.named_modules():
             if not self.exclude_head or self.head_name not in name:
                 if isinstance(module, nn.Linear) or isinstance(module, nn.Conv2d):
@@ -115,7 +115,7 @@ class SpectralRestrictedIsometryLoss(nn.modules.loss._Loss):
         torch.Tensor
             The computed loss.
         """
-        loss = 0
+        loss = torch.tensor(0.0, device=next(model.parameters()).device)
         for name, module in model.named_modules():
             if not self.exclude_head or self.head_name not in name:
                 if isinstance(module, nn.Linear) or isinstance(module, nn.Conv2d):
